@@ -1,0 +1,279 @@
+#firstdiv{
+    display: flex;
+    height: 550px;
+    width: 100%;
+}
+#login{
+    padding-left: 5%;
+}
+#swiggylogo{
+    padding: 50px;
+    padding-left: 3%;
+    
+    display: flex;
+    width: 600px;
+    height: 55px;
+}
+#firstdiv h1{
+    font-size:50px;
+    margin-bottom: 0%;
+}
+#firstdiv h2{
+    color: rgba(0,0,0,.5);
+    margin-top: 10px;
+    font-size: x-large;
+    font-weight: lighter;
+}
+#order{
+    padding-left: 2.5%;
+    margin-top: -20px;
+}
+#homeImage > img{
+width: 100%;
+height: 100%;
+}
+#homeImage{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+input::placeholder{
+    color:rgba(0,0,0,0.5);
+    font-size: large;
+    font-weight:bold;
+    padding-left: 2.5%;
+}
+
+#nav{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 75%;
+}
+body{
+    margin: 0%;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0;
+}
+#input{
+    display: flex;
+}
+input{
+    width: 50%;
+    height: 54px;
+    border-color: #fd8421;
+    border-width: 1.25px;
+    border-right: none;
+}
+#button{
+    border: solid #fd8421 1.25px;
+    border-left: none;
+    border-right: none;
+    padding: 8px;
+    padding-top: 12px;
+}
+#secondDiv{
+    background-color: #2b1e16;
+    height: 400px;
+    width: 100%;
+    margin-top: 0%;
+    padding: 0px;
+    display: flex;
+}
+#secondDiv div{
+    padding-left: 10vh;
+    
+}
+h3{
+    font-weight: bolder;
+    padding-left: 28px;
+    color: #fff;
+}
+pre{
+    color: #fff;
+    font-weight: bold;
+}
+#thirdDiv{
+    display: flex;
+    height: 570px;
+    margin-left: 20px;
+}
+#thirdDiv h1{
+    padding-top: 120px;
+    font-size: 40px;
+    color: rgba(0,0,0,.85);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#thirdDiv >div{
+    padding-left: 55px;
+}
+#third >img{
+    width: 200px;
+    padding-right: 10px;   
+    margin-top: 30px;
+}
+#third{
+    display: flex;
+    width: 500px;
+}
+#thirdDiv>img{
+    width: 400px;
+    height: 500px;
+}
+#image{
+    align-self:last baseline;
+    margin-left: -50px;
+}
+
+#thirdDiv h2{
+    padding-top: 0px;
+    color: rgba(0,0,0,.5);
+}
+#fourthDiv{
+    color: #fff;
+    display: flex;
+    background-color: black;
+    margin-bottom: -.5%;
+}
+#fourthDiv  >div{
+    width: 900px;
+    padding-left: 25px;
+    
+}
+#fourthDiv :last-child >img{
+    width: 200px;
+    border: solid rgba(248, 230, 230, 0.425) 2px;
+    border-radius: 10px;
+    margin: 15px;
+}
+#fourthDiv :last-child >img{
+    margin-top: 80px;
+    margin-bottom: -50px;
+}
+hr{
+   border-top: 2px solid rgba(248, 230, 230, 0.425);
+   width: 90%;
+   
+}
+#hr{
+    margin-top: -1%;
+    background-color: black;
+}
+li{
+    list-style: none;
+    margin-top: 25px;
+}
+#fifthDiv{
+    color: #fff;
+    display: flex;
+    background-color: black;
+    margin-top: -.7%;
+}
+#fifthDiv  >div{
+    width: 900px;
+    padding-left: 25px;  
+}
+#blswiggy{
+    background-color: black;
+    position: static;
+    height: 50px;
+}
+#sixthDiv{
+    margin-top: -.7%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+}
+#sixthDiv :first-child{
+margin-left: -45px;
+}
+#sixthDiv :last-child{
+    margin-right: -50px;
+}
+#footer img{
+    width: 25px;
+    padding-left: 20px;
+}
+#footer img:hover{
+    width: 30px;
+}
+h3{
+    font-weight: lighter;
+    font-size: 21px;
+}
+
+h5{
+    font-weight: lighter;
+    color: rgba(248, 230, 230, 0.425);
+    font-size: medium;
+    padding-left: 35px;
+}
+
+#fourthDiv >ul :first-child{
+    margin-top: 75px;
+    margin-bottom: 25px;
+    color: rgba(248, 230, 230, 0.425);
+}
+#secondDiv img{
+    padding-left: 10vh;
+    padding-right: 30vh;
+    height: 35vh;
+}
+span:nth-child(2n){
+    color: rgba(0,0,0,.5);
+}
+span{
+    padding-right: 5px;
+    color: rgba(0,0,0,.8);
+    
+    font-weight: bolder;
+}
+h4{
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 15px;
+}
+button{
+    padding: 10px;
+    border: none;
+    color: rgba(0,0,0,.65);
+    background-color: #fff;
+}
+
+button:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+ #firstdiv a{
+    padding: 20px;
+    background-color: #fd8421;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#signbutt{
+    margin: 10px;
+    padding: 20px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    font-size: 18px;
+    background-color: black;
+    color: #fff;
+    font-weight: bolder;
+}
+#loginbutt{
+    margin: 10px;
+    padding: 20px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    font-size: 18px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    font-weight: bolder;
+}
